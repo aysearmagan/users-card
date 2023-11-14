@@ -14,7 +14,7 @@ const MyCard = () => {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={item.img} />
       <Card.Body>
-        <Carapd.Title>{item.isim}</Carapd.Title>
+        <Card.Title>{item.isim}</Card.Title>
         <Card.Title>{item.yas}
         </Card.Title>
         <a href='https://www.youtube.com/' className='btn btn-secondary'>Go somewhere</a>
