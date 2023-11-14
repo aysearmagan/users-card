@@ -1,0 +1,21 @@
+.container{
+    .row{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 149, 118);
+    }
+    .card{
+        background-color: rgb(196, 195, 195);}
+    
+    .card img{
+        height: 100%;
+        width: 100%;
+    object-fit: cover;
+    }
+   
+     .card-body{
+         .card-title{
+        font-size: large;
+        font-style: italic;
+    }}
+}
